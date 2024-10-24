@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, Sans-serif;
+    background-color: yellow;
+}
+.barra-navegacao {
+    position: fixed;
+    bottom: 0;/*Coloca a barra de navegação na parte inferior da tela*/
+    width: 100%;
+    background-color: #fff;
+    padding: 10 px;
+}
+.barra-navegacao ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;/*Remove o padding padrão da lista*/
+}
+.barra-navegacao ul li{
+    color: dark-blue;
+}
+.barra-navegacao ul li a{
+    color: darkblue;
+    text-decoration: none;
+}
